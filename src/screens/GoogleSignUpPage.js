@@ -4,6 +4,9 @@ import { Box, TextField, InputAdornment, Button, Checkbox } from '@mui/material'
 const GoogleSignUpPage = () => {
     return (
         <>
+            <div style={{ display: "flex", justifyContent: "center"}}>
+                <a href='https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp'>Google Sign Up page reference</a>
+            </div>
             <div className='Wrapper'>
                 <div style={{
                     display: "flex",
