@@ -4,12 +4,7 @@ import { Box, TextField, InputAdornment, Button, Checkbox } from '@mui/material'
 const GoogleSignUpPage = () => {
     return (
         <>
-            <div style={{
-                height: "100vh",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center"
-            }}>
+            <div className='Wrapper'>
                 <div style={{
                     display: "flex",
                     width: "748px",

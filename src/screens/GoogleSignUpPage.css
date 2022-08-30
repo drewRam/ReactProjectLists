@@ -1,3 +1,14 @@
-* {
-    font-family: "Google Sans", "Noto Sans Myanmar UI", Arial, sans-serif;
+.Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Name-Field{
+    width:"48%";
+    margin-right: "2%";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

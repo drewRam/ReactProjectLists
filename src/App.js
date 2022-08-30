@@ -3,7 +3,7 @@ import GoogleSignUpPage from './screens/GoogleSignUpPage';
 
 function App() {
   return (
-    <GoogleSignUpPage></GoogleSignUpPage>
+    <GoogleSignUpPage className="Wrapper"></GoogleSignUpPage>
   );
 }
 
