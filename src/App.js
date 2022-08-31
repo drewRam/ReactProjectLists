@@ -1,9 +1,11 @@
 import './App.css';
-import GoogleSignUpPage from './screens/GoogleSignUpPage';
+//import GoogleSignUpPage from './screens/GoogleSignUp/GoogleSignUpPage';
+import StarbucksHomePage from './screens/Starbucks/StarbucksHomePage';
 
 function App() {
   return (
-    <GoogleSignUpPage className="Wrapper"></GoogleSignUpPage>
+    //<GoogleSignUpPage></GoogleSignUpPage>
+    <StarbucksHomePage></StarbucksHomePage>  
   );
 }
 

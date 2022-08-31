@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.reference-sb-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.starbucks-navbar {
+    padding: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.starbucks-navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.starbucks-navbar-left > * {
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.starbucks-navbar-left svg {
+    width: 50px;
+}
+
+.starbucks-navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.find-a-store {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}

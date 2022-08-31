@@ -8,7 +8,4 @@
 .Name-Field{
     width:"48%";
     margin-right: "2%";
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }

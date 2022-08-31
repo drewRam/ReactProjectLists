@@ -1,4 +1,5 @@
 import React from 'react';
+//import './GoogleSignUpPage.css';
 import { Box, TextField, InputAdornment, Button, Checkbox } from '@mui/material';
 
 const GoogleSignUpPage = () => {
@@ -7,7 +8,7 @@ const GoogleSignUpPage = () => {
             <div style={{ display: "flex", justifyContent: "center"}}>
                 <a href='https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp'>Google Sign Up page reference</a>
             </div>
-            <div className='Wrapper'>
+            <div>
                 <div style={{
                     display: "flex",
                     width: "748px",
@@ -50,14 +51,14 @@ const GoogleSignUpPage = () => {
                                 label="First name"
                                 variant="outlined"
                                 size="small"
-                                style={{ width:"48%", marginRight: "2%" }}
+                                style ={{width:"48%", marginRight: "2%"}}
                             />
                             <TextField
                                 id="outlined-basic"
                                 label="Last name"
                                 variant="outlined"
                                 size="small"
-                                style={{ width:"48%", marginRight: "2%" }}
+                                style ={{width:"48%", marginRight: "2%"}}
                             />
                         </Box>
                         <Box
